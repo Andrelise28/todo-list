@@ -19,7 +19,7 @@
             <section class="container" ng-controller="todo-controller as todoList">
                 <div class="todo-box">
                     <form class="add-task" ng-submit="todoList.add()">
-                        <input autofocus type="text" name="task" ng-model="todoList.task" placeholder="What needs to be done?" />
+                        <input autofocus type="text" required name="task" ng-model="todoList.task" placeholder="O que precisa ser feito?" />
                         <button type="submit"><i class="fas fa-plus"></i></button>
                     </form>
                     <div class="list">
